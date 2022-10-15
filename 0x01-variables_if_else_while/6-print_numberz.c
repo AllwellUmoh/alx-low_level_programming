@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry Point
+ * main - Print all single digit numbers using only putchar
  *
- * Return - Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
