@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	int numbers;
-	
+	char numbers;
+
 	for (numbers = 0; numbers <= 10; numbers++)
 	putchar(numbers);
 
