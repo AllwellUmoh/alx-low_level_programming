@@ -11,10 +11,10 @@ int main(void)
 	char alnum;
 	int numal;
 
-	for(numal = 0; numal < 10; numal++)
+	for (numal = 0; numal < 10; numal++)
 	putchar(numal + '0');
 
-	for(alnum = 'a'; alnum <= 'f'; alnum++)
+	for (alnum = 'a'; alnum <= 'f'; alnum++)
 	putchar(alnum);
 	putchar('\n');
 
