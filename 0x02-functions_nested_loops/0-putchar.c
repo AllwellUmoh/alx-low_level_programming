@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * Description: Geting to print puchchar_
+ * main - Description: Geting to print puchchar_
  *
- * Return: Allways (0)
+ * Return: Allways 0 (Success)
  */
 
 int main(void)
