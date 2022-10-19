@@ -7,7 +7,7 @@
  * Return: Always 0.
  */
 
-int main(void)
+int _abs(int n)
 {
 	if (n < 0)
 	{
