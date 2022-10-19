@@ -9,12 +9,10 @@
 int main(void)
 {
 	unsigned int a, b, c, d, s;
-	
 	a = 1;
 	b = 2;
 	c = 3;
 	s = 2;
-	
 	for (d = 2; d <= 32; d++)
 	{
 		if (c % 2 == 0)
