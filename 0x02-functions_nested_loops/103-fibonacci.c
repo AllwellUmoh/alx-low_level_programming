@@ -9,6 +9,7 @@
 int main(void)
 {
 	unsigned int a, b, c, d, s;
+
 	a = 1;
 	b = 2;
 	c = 3;
