@@ -8,7 +8,7 @@
 
 void print_number(int n)
 {
-	unsigned int m,d,count;
+	unsigned int m, d, count;
 
 	if (n < 0)
 	{
@@ -19,7 +19,6 @@ void print_number(int n)
 	{
 		m = n;
 	}
-	
 	d = m;
 	count = 1;
 
