@@ -1,20 +1,25 @@
-#include "dog.h"
-#include <stdlib.h>
+#ifndef DOG_H
+#define DOG_H
 
 /**
- * init_dog - Entry point
- * @d: passing structure at the function
- * @name: store a strig for main
- * @age: store a number for main
- * @owner: store a strig for main
+ * struct dog - list dates about pet
+ * @name: pet name
+ * @age: pet age
+ * @owner: pet owner name
  */
-void init_dog(struct dog *d, char *name, float age, char *owner)
+
+struct dog
 {
-	/* Passing to stucture from main */
-	if (d != NULL)
-	{
-		d->name = name;
-		d->age = age;
-		d->owner = owner;
-	}
+	char *name;
+	float age;
+	char *owner;
 }
+void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+/**
+ * dog - rename strucut with typedef
+ */
+typedef struct dog dog_t;
+dog_t *new_dog(char *name, float age, char *owner);
+void free_dog(dog_t *d);
+#endif;
