@@ -8,7 +8,6 @@
  * @age: store a number for main
  * @owner: store a strig for main
  */
-
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	/* Passing to stucture from main */
